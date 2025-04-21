@@ -1,0 +1,42 @@
+:root{
+    /* white color variables */
+    --white-100: #FFFFFF;
+    --white-200: #FAFAFA;
+    --white-300: #F5F5F5;
+    --white-400: #EEEEEE;
+    --white-500: #F2F2F2;
+    --white-600: #D9D9D9;
+    --white-700: #BFBFBF;
+    --white-800: #A6A6A6;
+    --white-900: #8C8C8C;
+
+    /* Mint green color variables */
+    --mint-green-100: #E6F3EC;
+    --mint-green-200: #CCE6D9;
+    --mint-green-300: #B3DAC5;
+    --mint-green-400: #99CDB2;
+    --mint-green-500: #8EBFA8;
+    --mint-green-600: #7EA891;
+    --mint-green-700: #6F927B;
+    --mint-green-800: #5F7B64;
+    --mint-green-900: #4F654E;
+
+    /* Brown gold color variables */
+    --brown-gold-100: #F5EDE3;
+    --brown-gold-200: #ECDAC6;
+    --brown-gold-300: #E2C8A9;
+    --brown-gold-400: #D9B58C;
+    --brown-gold-500: #BF9056;
+    --brown-gold-600: #A3784A;
+    --brown-gold-700: #88603E;
+    --brown-gold-800: #6C4832;
+    --brown-gold-900: #513026;
+
+    /* font-family variables */
+    --title-font: "Italiana", sans-serif;
+    --main-font: "Mulish", sans-serif;
+
+    /* Overwriting bootstrap variables */
+    --bs-body-bg: var(--white-500);
+    --bs-body-font-family: var(--main-font); 
+}
