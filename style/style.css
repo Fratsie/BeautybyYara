@@ -1,0 +1,25 @@
+nav{
+    background-color: var(--white-500);
+    min-height: 25vh;
+}
+
+h1, h2{
+    font-family: var(--title-font);
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.h-100{
+    min-height: 100vh;
+}
+
+#homeWrap{
+    background-image: linear-gradient(to right, rgba(241,241,241,.5) 50%, rgba(241,241,241,.5) 50%), url("../assets/hero.jpg");
+
+    #home>div{
+        min-height: 75vh;
+    }
+}
