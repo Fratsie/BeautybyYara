@@ -1,5 +1,5 @@
 :root{
-    /* white color variables */
+    /* white color tints variables */
     --white-100: #FFFFFF;
     --white-200: #FAFAFA;
     --white-300: #F5F5F5;
@@ -10,7 +10,7 @@
     --white-800: #A6A6A6;
     --white-900: #8C8C8C;
 
-    /* Mint green color variables */
+    /* Mint green color tints variables */
     --mint-green-100: #E6F3EC;
     --mint-green-200: #CCE6D9;
     --mint-green-300: #B3DAC5;
@@ -21,7 +21,7 @@
     --mint-green-800: #5F7B64;
     --mint-green-900: #4F654E;
 
-    /* Brown gold color variables */
+    /* Brown gold color tints variables */
     --brown-gold-100: #F5EDE3;
     --brown-gold-200: #ECDAC6;
     --brown-gold-300: #E2C8A9;
@@ -33,7 +33,7 @@
     --brown-gold-900: #513026;
 
     /* font-family variables */
-    --title-font: "Italiana", sans-serif;
+    --title-font: "Playfair Display", serif;
     --main-font: "Mulish", sans-serif;
 
     /* Overwriting bootstrap variables */
