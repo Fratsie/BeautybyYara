@@ -8,7 +8,7 @@ h1, h2{
 }
 
 h1{
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 img{
@@ -25,10 +25,16 @@ footer{
 }
 
 #homeWrap{
-    background-image: linear-gradient(to right, rgba(241,241,241,.5) 50%, rgba(241,241,241,.5) 50%), url("../assets/hero.jpg");
-    background-position: center center;
+    background-image: linear-gradient(to right, rgba(241,241,241,.5) 50%, rgba(241,241,241,.5) 50%), url("../assets/hero_small.jpg");
+    background-position: top center;
 
     #home>div{
         min-height: 75vh;
+    }
+}
+
+@media screen and (min-width: 768px){
+    #homeWrap{
+        background-image:  linear-gradient(to right, rgba(241,241,241,.5) 50%, rgba(241,241,241,.5) 50%), url("../assets/hero.jpg");
     }
 }
