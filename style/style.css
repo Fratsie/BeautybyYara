@@ -20,6 +20,17 @@ img{
     height: auto;
 }
 
+td, th{
+    background-color: var(--brown-gold-100);
+    border: 2px solid var(--mint-green-900);
+    padding: 5px;
+}
+
+th{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 footer{
     background-color: var(--brown-gold-200);
     color: black;
@@ -46,13 +57,13 @@ footer{
     min-height: 100vh;
 }
 
+.h-75{
+    min-height: 75vh;
+}
+
 #homeWrap{
     background-image: linear-gradient(to right, rgba(241,241,241,.5) 50%, rgba(241,241,241,.5) 50%), url("../assets/hero_small.jpg");
     background-position: top center;
-
-    #home>div{
-        min-height: 75vh;
-    }
 }
 
 #beautybyYara{
