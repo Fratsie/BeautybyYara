@@ -11,13 +11,35 @@ h1{
     font-size: 3.5rem;
 }
 
+h2{
+    font-size: 2.5rem;
+}
+
 img{
     max-width: 100%;
     height: auto;
 }
 
 footer{
-    background-color: var(--white-700);
+    background-color: var(--brown-gold-200);
+    color: black;
+}
+
+.tip{
+    transform: skewY(2deg);
+    background-color: var(--mint-green-700);
+
+    p{
+        font-size: 1.25rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: white;
+    }
+
+    i{
+        color: var(--brown-gold-400);
+        font-size: 4rem;
+    }
 }
 
 .h-100{
@@ -33,7 +55,23 @@ footer{
     }
 }
 
+#beautybyYara{
+    p{
+        font-size: 1.1rem;
+    }
+}
+
 @media screen and (min-width: 768px){
+    h1{
+        font-size: 4rem;
+    }
+
+    .tip{
+        i{
+            font-size: 6rem;
+        }
+    }
+
     #homeWrap{
         background-image:  linear-gradient(to right, rgba(241,241,241,.5) 50%, rgba(241,241,241,.5) 50%), url("../assets/hero.jpg");
     }
