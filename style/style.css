@@ -1,3 +1,7 @@
+html{
+    box-sizing: border-box;
+}
+
 nav{
     background-color: var(--white-500);
     min-height: 25vh;
@@ -50,6 +54,20 @@ footer{
     i{
         color: var(--brown-gold-400);
         font-size: 4rem;
+    }
+}
+
+.overlay{
+    height: 100%;
+
+    div{
+        background-color: var(--brown-gold-100);
+        color: var(--mint-green-900);
+
+        h5{
+            font-weight: bold;
+            text-transform: uppercase;
+        }
     }
 }
 
