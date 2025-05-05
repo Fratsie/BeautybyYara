@@ -19,6 +19,11 @@ h2{
     font-size: 2.5rem;
 }
 
+h6{
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
 img{
     max-width: 100%;
     height: auto;
