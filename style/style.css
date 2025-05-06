@@ -40,6 +40,16 @@ th{
     font-weight: bold;
 }
 
+input, textarea, select{
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+}
+
+textarea{
+    min-height: 100px;
+}
+
 footer{
     background-color: var(--brown-gold-200);
     color: black;
