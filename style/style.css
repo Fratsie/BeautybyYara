@@ -29,10 +29,8 @@ img{
     height: auto;
 }
 
-td, th{
-    background-color: var(--brown-gold-100);
-    border: 2px solid var(--mint-green-900);
-    padding: 5px;
+table{
+    background-color: white;
 }
 
 th{
@@ -51,7 +49,7 @@ textarea{
 }
 
 footer{
-    background-color: var(--brown-gold-200);
+    background-color: var(--brown-gold-100);
     color: black;
 }
 
