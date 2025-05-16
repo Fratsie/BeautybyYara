@@ -39,4 +39,16 @@
     /* Overwriting bootstrap variables */
     --bs-body-bg: var(--white-500);
     --bs-body-font-family: var(--main-font); 
+
+    .btn-primary{
+        --bs-btn-bg: var(--brown-gold-500);
+        --bs-btn-border-color: var(--brown-gold-500);
+        --bs-btn-hover-bg: var(--brown-gold-600);
+        --bs-btn-hover-border-color: var(--brown-gold-600);
+    }
+
+    .accordion{
+        --bs-primary-bg-subtle: var(--mint-green-200);
+        --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem var(--mint-green-200);
+    }
 }

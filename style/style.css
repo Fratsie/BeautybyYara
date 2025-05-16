@@ -36,12 +36,18 @@ table{
 th{
     text-transform: uppercase;
     font-weight: bold;
+    border-bottom: 2px solid black;
 }
 
 input, textarea, select{
-    border: none;
     border-radius: 5px;
-    height: 30px;
+    height: 35px;
+    padding: 5px;
+    border: 2px solid var(--brown-gold-300);
+
+    &:active, &:focus{
+        border: none;
+    }
 }
 
 textarea{
@@ -51,6 +57,11 @@ textarea{
 footer{
     background-color: var(--brown-gold-100);
     color: black;
+}
+
+.accordion-button{
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .tip{
@@ -81,6 +92,24 @@ footer{
             font-weight: bold;
             text-transform: uppercase;
         }
+    }
+}
+
+.accent{
+    color: var(--mint-green-700);
+    font-weight: bold;
+}
+
+.price-tag{
+    color: var(--brown-gold-600);
+    font-weight: bold;
+}
+
+.social-icon{
+    color: var(--brown-gold-500);
+
+    &:hover{
+        color: var(--brown-gold-600);
     }
 }
 
