@@ -105,6 +105,10 @@ footer{
     font-weight: bold;
 }
 
+.rule{
+    background-color: var(--white-600);
+}
+
 .social-icon{
     color: var(--brown-gold-500);
 
