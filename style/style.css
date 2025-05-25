@@ -120,7 +120,12 @@ footer{
 }
 
 .rule{
-    background-color: var(--white-600);
+    background-color: var(--mint-green-700);
+    color: white;
+
+    i{
+        color: var(--mint-green-200);
+    }
 }
 
 .social-icon{
