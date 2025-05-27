@@ -67,6 +67,8 @@ footer{
 
     th{
         background-color: var(--brown-gold-200);
+        font-family: var(--title-font);
+        font-size: 1.25rem;
 
         &:first-child{
             border-top-left-radius: 5px;
