@@ -111,13 +111,11 @@ footer{
     }
 
     div{
-        background-color: rgba(0,0,0,.5);
-        color: var(--white-200);
-        position: absolute;
+        background-color: var(--mint-green-200);
+        color: black;
         bottom: 0;
         width: 100%;
         height: 100%;
-        opacity: 0;
         transition: .25s;
 
         h5{
@@ -157,7 +155,6 @@ footer{
 
 .luxe{
     border: 6px solid var(--brown-gold-400);
-    border-radius: 12px;
 }
 
 .luxeText{
@@ -196,6 +193,25 @@ footer{
 
     #homeWrap{
         background-image:  linear-gradient(to right, rgba(241,241,241,.5) 50%, rgba(241,241,241,.5) 50%), url("../assets/hero.jpg");
+        background-position: top center;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .overlay div{
+        background-color: rgba(0,0,0,.5);
+    }
+
+    .luxe{
+        border-radius: 12px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    #homeWrap{
+        position: absolute;
         background-position: top left;
+        color: var(--white-200);
+        opacity: 0;
     }
 }
