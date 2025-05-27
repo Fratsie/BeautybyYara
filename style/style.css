@@ -208,7 +208,7 @@ footer{
 }
 
 @media screen and (min-width: 1200px){
-    #homeWrap{
+    .overlay div{
         position: absolute;
         background-position: top left;
         color: var(--white-200);
