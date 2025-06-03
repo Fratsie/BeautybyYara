@@ -68,19 +68,24 @@ footer{
 
 .productsTable{
     background-color: var(--brown-gold-100);
+    border: 5px solid var(--brown-gold-600);
 
     th{
         background-color: var(--brown-gold-200);
         font-family: var(--title-font);
         font-size: 1.25rem;
+    }
 
-        &:first-child{
-            border-top-left-radius: 5px;
-        }
+    tr{
+        border-bottom: 2px solid var(--mint-green-600);
 
-        &:last-child{
-            border-top-right-radius: 5px;
+        &:last-child, &:first-child{
+            border: none;
         }
+    }
+
+    i{
+        color: var(--mint-green-600);
     }
 }
 
