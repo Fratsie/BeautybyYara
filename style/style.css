@@ -60,6 +60,10 @@ textarea{
 footer{
     background-color: var(--brown-gold-100);
     color: black;
+
+    i{
+        color: var(--mint-green-600);
+    }
 }
 
 .productsTable{
