@@ -64,6 +64,17 @@ footer{
     i{
         color: var(--mint-green-600);
     }
+
+    a{
+        color: var(--brown-gold-900);
+        text-decoration: none;
+        font-weight: bold;
+        transition: .25s;
+
+        &:hover{
+            color: var(--brown-gold-500);
+        }
+    }
 }
 
 .productsTable{
